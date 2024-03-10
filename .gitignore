@@ -1,0 +1,30 @@
+# Backend-Ordner ignorieren
+/backend/node_modules
+
+# Frontend-Ordner ignorieren
+/frontend/node_modules
+
+# Build-Ausgaben ignorieren
+/backend/build
+/frontend/build
+
+/backend/dist
+/frontend/dist
+
+# .env-Dateien ignorieren
+/backend/.env
+/frontend/.env
+/backend/.env.local
+/frontend/.env.local
+
+# Temporäre Dateien ignorieren
+*.log
+*.tmp
+
+# Konfigurationsdateien ignorieren
+.env
+.env.local
+
+# Betriebssystem-Dateien ignorieren
+.DS_Store
+Thumbs.db
